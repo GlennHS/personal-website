@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "local-web-server"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   "homepage": "https://github.com/GlennHS/personal-website#readme",
   "dependencies": {
     "eslint": "^5.3.0",
+    "heroku-local": "^5.1.21",
+    "http-server": "^0.11.1",
+    "local-web-server": "^2.6.0",
     "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^4.9.3",
     "sass": "^1.11.0"
