@@ -3,6 +3,35 @@ $materialize-teal-lighten3: #80cbc4;
 $materialize-teal-accent1:  #a7ffeb;
 $materialize-teal-accent2:  #64ffda ;
 
+body {
+  background-color: $materialize-teal-lighten2;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#page-logo {
+  margin-top: 5px;
+  height: 200px;
+}
+
 #nav-logo {
-  width: 150px;
+  width: 100px;
+  margin: 20px;
+}
+
+blockquote {
+  border-left: 20px solid #1976d2 ;
+  font-size: 18px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.icon {
+  width: 40px;
+}
+
+.valign-wrapper {
+  height: 200px;
 }
