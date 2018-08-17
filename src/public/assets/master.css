@@ -1,7 +1,20 @@
 body {
-  background-color: #4db6ac;
+  background-color: #00796b;
   color: white;
   font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 #page-logo {
@@ -14,8 +27,13 @@ body {
   margin: 20px;
 }
 
+#logo-image {
+  width: 250px;
+  margin-left: 50px;
+}
+
 blockquote {
-  border-left: 20px solid #1976d2;
+  border-left: 20px solid #64ffda;
   font-size: 18px;
 }
 
@@ -29,6 +47,36 @@ strong {
 
 .valign-wrapper {
   height: 200px;
+}
+
+.footer-wrapper {
+  margin-top: 50px;
+  background-color: #4db6ac;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+#btn-top {
+  opacity: 0.6;
+}
+
+#slide-out {
+  background-color: #80cbc4;
+}
+
+#hamburger {
+  font-size: 56px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  #logo-image {
+    width: 20vw;
+  }
+}
+.row {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=master.css.map */

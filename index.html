@@ -5,35 +5,44 @@
 
     <title>Example Project</title>
     <meta name="description" content="My Example Page">
-    <meta name="Glenn Hamilton-Smith">
+    <meta name="author" content="Glenn Hamilton-Smith">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="src/public/assets/materialize.min.css">
     <link rel="stylesheet" href="src/public/assets/master.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> 
+    <link rel="shortcut icon" type="image/png" href="src/public/assets/images/favicon.png"/> 
   </head>
 
   <body>
-    <div class="navbar-fixed">
+    <div class="navbar-fixed hide-on-med-and-down">
       <nav>
-        <div class="nav-wrapper blue">
+        <div class="nav-wrapper teal">
           <a href="index.html" class="brand-logo right"><img id='nav-logo' class='responsive-img circle' src='src/public/assets/images/logo.png' alt='Glenn Hamilton-Smith: Caring Meets Quality' /></a>
           <ul id="nav-mobile" class="left">
-            <li><a href='index.html' id='nav-home' class="btn blue lighten-1 waves-effect waves-light navbar-button">Home</a></li>
-            <li><a href='about.html' id='nav-about' class="btn blue lighten-1 waves-effect waves-light navbar-button">About Me</a></li>
-            <li><a href='projects.html' id='nav-projects' class="btn blue lighten-1 waves-effect waves-light navbar-button">Projects</a></li>
-            <li><a href='links.html' id='nav-links' class="btn blue lighten-1 waves-effect waves-light navbar-button">Links</a></li>
+            <li><a href='index.html' id='nav-home' class="btn teal lighten-1 waves-effect waves-light navbar-button">Home</a></li>
+            <li><a href='about.html' id='nav-about' class="btn teal lighten-1 waves-effect waves-light navbar-button">About Me</a></li>
+            <li><a href='projects.html' id='nav-projects' class="btn teal lighten-1 waves-effect waves-light navbar-button">Projects</a></li>
+            <li><a href='links.html' id='nav-links' class="btn teal lighten-1 waves-effect waves-light navbar-button">Links</a></li>
           </ul>
         </div>
       </nav>
     </div>
 
-    <div class='section blue lighten-2 container'>
+    <ul id="slide-out" class="sidenav">
+      <li><a href='index.html' id='nav-home' class="btn teal lighten-1 waves-effect waves-light navbar-button">Home</a></li>
+      <li><a href='about.html' id='nav-about' class="btn teal lighten-1 waves-effect waves-light navbar-button">About Me</a></li>
+      <li><a href='projects.html' id='nav-projects' class="btn teal lighten-1 waves-effect waves-light navbar-button">Projects</a></li>
+      <li><a href='links.html' id='nav-links' class="btn teal lighten-1 waves-effect waves-light navbar-button">Links</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i id='hamburger' class="material-icons">menu</i></a>
+
+    <div class='section teal lighten-2 container'>
       <h2 class='center'>Caring Meets Quality</h2>
       <div class='container center'>
         <img id='page-logo' class='circle' src='src/public/assets/images/logo.png' alt='My Brand Logo' />
       </div>
-      <blockquote class='center blue lighten-1'>
+      <blockquote class='center teal lighten-1'>
         <strong>"Transparency, Elegance, Quality"</strong>
       </blockquote>
       <div class='container center'>
@@ -42,16 +51,18 @@
     </div>
 
     <footer class='center flow-text'>
-      <span>Copyright Glenn Hamilton-Smith 2018</span>
+        <div class="container footer-wrapper">
+        <span>Copyright Glenn Hamilton-Smith 2018</span>
+      </div>
     </footer>
 
     <div class="fixed-action-btn">
-      <a class="btn-floating btn-large waves-effect red" onclick='goToTop()'>
+      <a class="btn-floating btn-large red hide" id='btn-top' onclick='goToTop()'>
         <i class="large material-icons">arrow_upward</i>
       </a>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="src/public/assets/materialize.min.js"></script>
     <script src="src/server/index.js"></script>
   </body>
 </html>
