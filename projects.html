@@ -8,7 +8,7 @@
     <meta name="Sam Griffiths">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link rel="stylesheet" href="src/public/assets/master.css">
+    <link rel="stylesheet" href="assets/master.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> 
   </head>
@@ -17,7 +17,7 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper blue">
-          <a href="index.html" class="brand-logo right"><img id='nav-logo' class='responsive-img circle' src='src/public/assets/images/logo.png' alt='Sam Griffiths: Caring Meets Quality' /></a>
+          <a href="index.html" class="brand-logo right"><img id='logo' class='responsive-img circle' src='assets/logo.png' alt='Sam Griffiths: Caring Meets Quality' /></a>
           <ul id="nav-mobile" class="left">
             <li><a href='index.html' id='nav-home' class="btn blue lighten-1 waves-effect waves-light navbar-button">Home</a></li>
             <li><a href='about.html' id='nav-about' class="btn blue lighten-1 waves-effect waves-light navbar-button">About Me</a></li>
@@ -28,17 +28,24 @@
       </nav>
     </div>
 
-    <div class='section blue lighten-2 container'>
-      <h2 class='center'>Caring Meets Quality</h2>
-      <div class='container center'>
-        <img id='page-logo' class='circle' src='src/public/assets/images/logo.png' alt='My Brand Logo' />
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/parallax1.jpeg" /></div>
+    </div>
+    <div class='section blue lighten-2 container flow-text'>
+      <h2 class='center'>Current Projects</h2>
+      <div class='row'>
+        <div class='col s4'>
+          <img id='logo-image' class='circle' src='assets/logo.png' alt='My Brand Logo' />
+        </div>
+        <div class='col s8'>
+          <div class='valign-wrapper'>
+            <span>I am currently not working on any projects but am looking forward to whatever challenges the future brings!</span>
+          </div>
+        </div>
       </div>
-      <blockquote class='center blue lighten-1'>
-        <strong>"Transparency, Elegance, Quality"</strong>
-      </blockquote>
-      <div class='container center'>
-        <span class='flow-text'>I believe in transparency, elegance and quality. That's why I always make sure that my cutomers are updated at every junction and that <strong>their</strong> product is made exactly as they want. I am simply the medium through which their ideas are expressed and realized</span>
-      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/parallax2.jpg" /></div>
     </div>
 
     <footer class='center flow-text'>
@@ -52,6 +59,6 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="src/server/index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
