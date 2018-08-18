@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "watch": "sass src/public/assets/master.scss src/public/assets/master.css --watch"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,16 @@
   },
   "homepage": "https://github.com/GlennHS/personal-website#readme",
   "dependencies": {
+    "bufferutil": "4.0.0",
     "eslint": "^5.3.0",
+    "express": "4.16.3",
+    "heroku-local": "^5.1.21",
+    "http-server": "^0.11.1",
+    "local-web-server": "^2.6.0",
     "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^4.9.3",
-    "sass": "^1.11.0"
+    "sass": "^1.11.0",
+    "utf-8-validate": "5.0.1",
+    "ws": "6.0.0"
   }
 }

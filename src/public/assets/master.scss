@@ -1,0 +1,95 @@
+$materialize-teal-lighten2: #4db6ac;
+$materialize-teal-lighten3: #80cbc4;
+$materialize-teal-accent1:  #a7ffeb;
+$materialize-teal-accent2:  #64ffda;
+$materialize-teal-darken2:  #00796b;
+
+body {
+  background-color: $materialize-teal-darken2;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+#page-logo {
+  margin-top: 5px;
+  height: 200px;
+}
+
+#nav-logo {
+  width: 100px;
+  margin: 20px;
+}
+
+#logo-image {
+  width: 250px;
+  margin-left: 50px;
+}
+
+blockquote {
+  border-left: 20px solid $materialize-teal-accent2 ;
+  font-size: 18px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.icon {
+  width: 40px;
+}
+
+.valign-wrapper {
+  height: 200px;
+}
+
+.footer-wrapper {
+  margin-top: 50px;
+  background-color: $materialize-teal-lighten2;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+#btn-top {
+  opacity: 0.6;
+}
+
+#slide-out {
+  background-color: $materialize-teal-lighten2
+}
+
+#hamburger {
+  font-size: 56px!important;
+}
+
+@media only screen and (max-width: 992px) {
+  #logo-image {
+    width: 20vw;
+  }
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.navbar-button-side {
+  margin-bottom : 50px!important;
+}
+
+.nav-home.navbar-button-side {
+  margin-top: 150px!important;
+}
