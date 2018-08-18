@@ -13,17 +13,22 @@ body {
 
 h2 {
   font-size: 36px;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 30px;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 h4 {
   font-size: 24px;
+  font-weight: 400;
 }
 
-#page-logo {
+#page-logo, #page-face{
   margin-top: 5px;
   height: 200px;
 }
@@ -40,7 +45,7 @@ h4 {
 
 blockquote {
   border-left: 20px solid $materialize-teal-accent2 ;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 strong {
@@ -73,7 +78,7 @@ strong {
 }
 
 #hamburger {
-  font-size: 56px!important;
+  font-size: 100px!important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -92,4 +97,8 @@ strong {
 
 .nav-home.navbar-button-side {
   margin-top: 150px!important;
+}
+
+.random-color {
+  font-size: 24px;
 }
