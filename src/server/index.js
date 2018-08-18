@@ -11,20 +11,22 @@ const colorNavButton = () => {
   let buttonToChange = '';
   switch(window.location.href.substr(window.location.href.length - 10)) {
     case 'index.html':
-      buttonToChange = document.getElementById('nav-home');
+      buttonToChange = document.getElementsByClassName('nav-home');
       break;
     case 'about.html':
-      buttonToChange = document.getElementById('nav-about');
+      buttonToChange = document.getElementsByClassName('nav-about');
       break;
     case 'jects.html':
-      buttonToChange = document.getElementById('nav-projects');
+      buttonToChange = document.getElementsByClassName('nav-projects');
       break;
     case 'links.html':
-      buttonToChange = document.getElementById('nav-links');
+      buttonToChange = document.getElementsByClassName('nav-links');
       break;
   }
-  buttonToChange.classList.remove('teal', 'lighten-1');
-  buttonToChange.classList.add('teal', 'lighten-3');
+  Array.from(buttonToChange).forEach( (button) => {
+    button.classList.remove('teal', 'lighten-1');
+    button.classList.add('teal', 'lighten-3');
+  })
 }
 
 /**

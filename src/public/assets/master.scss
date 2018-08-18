@@ -69,7 +69,7 @@ strong {
 }
 
 #slide-out {
-  background-color: $materialize-teal-lighten3
+  background-color: $materialize-teal-lighten2
 }
 
 #hamburger {
@@ -84,4 +84,12 @@ strong {
 
 .row {
   margin-top: 50px;
+}
+
+.navbar-button-side {
+  margin-bottom : 50px!important;
+}
+
+.nav-home.navbar-button-side {
+  margin-top: 150px!important;
 }
