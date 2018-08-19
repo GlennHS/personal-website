@@ -1,11 +1,7 @@
-$materialize-teal-lighten2: #4db6ac;
-$materialize-teal-lighten3: #80cbc4;
-$materialize-teal-accent1:  #a7ffeb;
-$materialize-teal-accent2:  #64ffda;
-$materialize-teal-darken2:  #00796b;
+@import "variables.scss";
 
 body {
-  background-color: $materialize-teal-darken2;
+  background-color: $background;
   color: white;
   font-family: 'Exo 2', sans-serif;
   font-size: 20px;
@@ -28,11 +24,6 @@ h4 {
   font-weight: 400;
 }
 
-#page-logo, #page-face{
-  margin-top: 5px;
-  height: 200px;
-}
-
 #nav-logo {
   width: 100px;
   margin: 20px;
@@ -44,7 +35,7 @@ h4 {
 }
 
 blockquote {
-  border-left: 20px solid $materialize-teal-accent2 ;
+  border-left: 20px solid $blockquote ;
   font-size: 22px;
 }
 
@@ -56,49 +47,70 @@ strong {
   width: 40px;
 }
 
-.valign-wrapper {
-  height: 200px;
-}
-
 .footer-wrapper {
   margin-top: 50px;
-  background-color: $materialize-teal-lighten2;
+  background-color: $section;
 }
 
 .section {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 #btn-top {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 #slide-out {
-  background-color: $materialize-teal-lighten2
+  background-color: $section
 }
 
 #hamburger {
-  font-size: 100px!important;
-}
-
-@media only screen and (max-width: 992px) {
-  #logo-image {
-    width: 20vw;
-  }
+  font-size: 100px !important;
 }
 
 .row {
   margin-top: 50px;
 }
 
-.navbar-button-side {
-  margin-bottom : 50px!important;
+.navbar-button:hover {
+  background-color: $btn-hover !important;
+}
+
+.sidenav > li > .navbar-button {
+  margin-bottom : 50px !important;
+}
+
+#side-nav-logo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
 }
 
 .nav-home.navbar-button-side {
-  margin-top: 150px!important;
+  margin-top: 150px !important;
 }
 
 .random-color {
   font-size: 24px;
+}
+
+.section {
+  background: #00897b; /* Old browsers */
+  background: -moz-linear-gradient(left,  $background 0%, $section 25%, $section 75%, $background 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  $background 0%,$section 25%,$section 75%,$background 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  $background 0%,$section 25%,$section 75%,$background 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00897b', endColorstr='#00897b',GradientType=1 ); /* IE6-9 */
+}
+
+.page-logo{
+  margin-top: 5px;
+  height: 200px !important;
+  width: 200px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .page-logo{
+    height: 100px;
+    width: 100px !important;
+  }
 }

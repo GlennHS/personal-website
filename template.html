@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Æther Solutions</title>
+    <meta name="description" content="AEther Solutions">
+    <meta name="author" content="Glenn Hamilton-Smith">
+
+    <link rel="stylesheet" href="src/public/assets/materialize.min.css">
+    <link rel="stylesheet" href="src/public/assets/master.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> 
+    <link rel="shortcut icon" type="image/png" href="src/public/assets/images/favicon.png"/> 
+  </head>
+
+  <body>
+    <div class="navbar-fixed hide-on-med-and-down">
+      <nav>
+        <div class="nav-wrapper grey darken-4">
+          <a href="index.html" class="brand-logo right"><img id='nav-logo' class='responsive-img circle' src='src/public/assets/images/logo.png' alt='Glenn Hamilton-Smith: Caring Meets Quality' /></a>
+          <ul id="nav-mobile" class="left">
+            <li><a href='index.html' class="nav-home btn waves-effect waves-light navbar-button">Home</a></li>
+            <li><a href='about.html' class="nav-about btn waves-effect waves-light navbar-button">About Me</a></li>
+            <li><a href='projects.html' class="nav-projects btn waves-effect waves-light navbar-button">Projects</a></li>
+            <li><a href='links.html' class="nav-links btn waves-effect waves-light navbar-button">Links</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <ul id="slide-out" class="sidenav center">
+      <img id="side-nav-logo" class='circle z-depth-3' src='src/public/assets/images/logo.png' alt='My Brand Logo' />
+      <li><a href='index.html' class="nav-home btn waves-effect waves-light navbar-button">Home</a></li>
+      <li><a href='about.html' class="nav-about btn waves-effect waves-light navbar-button">About Me</a></li>
+      <li><a href='projects.html' class="nav-projects btn waves-effect waves-light navbar-button">Projects</a></li>
+      <li><a href='links.html' class="nav-links btn waves-effect waves-light navbar-button">Links</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i id='hamburger' class="material-icons">menu</i></a>
+
+    <div class='section teal lighten-2 z-depth-3'>
+      <h2 class='center'>Caring Meets Quality</h2>
+      <div class="row container valign-wrapper">
+        <div class="col s2 left">
+          <img class='circle z-depth-3 page-logo' src='src/public/assets/images/logo.png' alt='My Brand Logo' />
+        </div>
+        <div class="col s2"></div>
+        <div class="col s8 right">
+          <span class='flow-text'>I believe in transparency, elegance and quality. That's why I always make sure that my cutomers are updated at every junction and that <strong>their</strong> product is made exactly as they want. I am simply the medium through which their ideas are expressed and realized</span>
+        </div>
+      </div>
+    </div>
+    <div class='section teal lighten-2 z-depth-3'>
+      <h2 class='center'>Caring Meets Quality</h2>
+      <div class="row container valign-wrapper">
+        <div class="col s8 right">
+          <span class='flow-text'>I believe in transparency, elegance and quality. That's why I always make sure that my cutomers are updated at every junction and that <strong>their</strong> product is made exactly as they want. I am simply the medium through which their ideas are expressed and realized</span>
+        </div>
+        <div class="col s2"></div>
+        <div class="col s2 right">
+          <img class='circle z-depth-3 page-logo' src='src/public/assets/images/logo.png' alt='My Brand Logo' />
+        </div>
+      </div>
+    </div>
+
+    <footer class='center flow-text'>
+        <div class="container footer-wrapper">
+        <span>Copyright Glenn Hamilton-Smith 2018</span>
+      </div>
+    </footer>
+
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red hide" id='btn-top' onclick='goToTop()'>
+        <i class="large material-icons">arrow_upward</i>
+      </a>
+    </div>
+
+    <script src="src/public/assets/materialize.min.js"></script>
+    <script src="src/server/index.js"></script>
+  </body>
+</html>

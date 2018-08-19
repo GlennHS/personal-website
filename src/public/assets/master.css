@@ -1,5 +1,6 @@
+/***VARIABLE DECLARATION***/
 body {
-  background-color: #00796b;
+  background-color: #00897b;
   color: white;
   font-family: "Exo 2", sans-serif;
   font-size: 20px;
@@ -20,11 +21,6 @@ h3 {
 h4 {
   font-size: 24px;
   font-weight: 400;
-}
-
-#page-logo, #page-face {
-  margin-top: 5px;
-  height: 200px;
 }
 
 #nav-logo {
@@ -50,21 +46,17 @@ strong {
   width: 40px;
 }
 
-.valign-wrapper {
-  height: 200px;
-}
-
 .footer-wrapper {
   margin-top: 50px;
   background-color: #4db6ac;
 }
 
 .section {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 #btn-top {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 #slide-out {
@@ -75,17 +67,22 @@ strong {
   font-size: 100px !important;
 }
 
-@media only screen and (max-width: 992px) {
-  #logo-image {
-    width: 20vw;
-  }
-}
 .row {
   margin-top: 50px;
 }
 
-.navbar-button-side {
+.navbar-button:hover {
+  background-color: #607d8b !important;
+}
+
+.sidenav > li > .navbar-button {
   margin-bottom: 50px !important;
+}
+
+#side-nav-logo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
 }
 
 .nav-home.navbar-button-side {
@@ -94,6 +91,32 @@ strong {
 
 .random-color {
   font-size: 24px;
+}
+
+.section {
+  background: #00897b;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #00897b 0%, #4db6ac 25%, #4db6ac 75%, #00897b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #00897b 0%, #4db6ac 25%, #4db6ac 75%, #00897b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #00897b 0%, #4db6ac 25%, #4db6ac 75%, #00897b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00897b", endColorstr="#00897b",GradientType=1 );
+  /* IE6-9 */
+}
+
+.page-logo {
+  margin-top: 5px;
+  height: 200px !important;
+  width: 200px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .page-logo {
+    height: 100px;
+    width: 100px !important;
+  }
 }
 
 /*# sourceMappingURL=master.css.map */
