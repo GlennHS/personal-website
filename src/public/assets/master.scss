@@ -7,6 +7,13 @@ body {
   font-size: 20px;
 }
 
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+  font-weight: 700;
+  font-style: italic;
+}
+
 h2 {
   font-size: 36px;
   text-decoration: underline;
@@ -95,7 +102,7 @@ strong {
 }
 
 .section {
-  background: #00897b; /* Old browsers */
+  background: $background; /* Old browsers */
   background: -moz-linear-gradient(left,  $background 0%, $section 25%, $section 75%, $background 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left,  $background 0%,$section 25%,$section 75%,$background 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right,  $background 0%,$section 25%,$section 75%,$background 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -110,7 +117,7 @@ strong {
 
 @media only screen and (max-width: 992px) {
   .page-logo{
-    height: 100px;
+    height: 100px !important;
     width: 100px !important;
   }
 }

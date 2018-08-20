@@ -3,45 +3,47 @@
   <head>
     <meta charset="utf-8">
 
-    <title>My Projects</title>
-    <meta name="description" content="My Projects">
+    <title>Æther Solutions</title>
+    <meta name="description" content="AEther Solutions">
     <meta name="author" content="Glenn Hamilton-Smith">
 
     <link rel="stylesheet" href="src/public/assets/materialize.min.css">
     <link rel="stylesheet" href="src/public/assets/master.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> 
     <link rel="shortcut icon" type="image/png" href="src/public/assets/images/favicon.png"/> 
   </head>
 
   <body>
     <div class="navbar-fixed hide-on-med-and-down">
       <nav>
-        <div class="nav-wrapper teal">
+        <div class="nav-wrapper grey darken-4">
           <a href="index.html" class="brand-logo right"><img id='nav-logo' class='responsive-img circle' src='src/public/assets/images/logo.png' alt='Glenn Hamilton-Smith: Caring Meets Quality' /></a>
           <ul id="nav-mobile" class="left">
-            <li><a href='index.html' class="nav-home btn teal lighten-1 waves-effect waves-light navbar-button">Home</a></li>
-            <li><a href='about.html' class="nav-about btn teal lighten-1 waves-effect waves-light navbar-button">About Me</a></li>
-            <li><a href='projects.html' class="nav-projects btn teal lighten-1 waves-effect waves-light navbar-button">Projects</a></li>
-            <li><a href='links.html' class="nav-links btn teal lighten-1 waves-effect waves-light navbar-button">Links</a></li>
+            <li><a href='index.html' class="nav-home btn waves-effect waves-light navbar-button">Home</a></li>
+            <li><a href='about.html' class="nav-about btn waves-effect waves-light navbar-button">About Me</a></li>
+            <li><a href='projects.html' class="nav-projects btn waves-effect waves-light navbar-button">Projects</a></li>
+            <li><a href='links.html' class="nav-links btn waves-effect waves-light navbar-button">Links</a></li>
           </ul>
         </div>
       </nav>
     </div>
 
-    <ul id="slide-out" class="sidenav">
-      <li><a href='index.html' class="nav-home btn teal lighten-1 waves-effect waves-light navbar-button-side">Home</a></li>
-      <li><a href='about.html' class="nav-about btn teal lighten-1 waves-effect waves-light navbar-button-side">About Me</a></li>
-      <li><a href='projects.html' class="nav-projects btn teal lighten-1 waves-effect waves-light navbar-button-side">Projects</a></li>
-      <li><a href='links.html' class="nav-links btn teal lighten-1 waves-effect waves-light navbar-button-side">Links</a></li>
+    <ul id="slide-out" class="sidenav center">
+      <img id="side-nav-logo" class='circle z-depth-3' src='src/public/assets/images/logo.png' alt='My Brand Logo' />
+      <li><a href='index.html' class="nav-home btn waves-effect waves-light navbar-button">Home</a></li>
+      <li><a href='about.html' class="nav-about btn waves-effect waves-light navbar-button">About Me</a></li>
+      <li><a href='projects.html' class="nav-projects btn waves-effect waves-light navbar-button">Projects</a></li>
+      <li><a href='links.html' class="nav-links btn waves-effect waves-light navbar-button">Links</a></li>
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i id='hamburger' class="material-icons">menu</i></a>
 
-    <div class='section teal lighten-2 container flow-text'>
-      <h2 class='center'>Current Projects</h2>
-      <div class='row'>
+    <h1 class='center'>Current Projects</h1>
+    <div class='section teal lighten-2 z-depth-1'>
+      <h2 class='center'>Aether Solutions</h2>
+      <div class='row container valign-wrapper'>
         <div class='col s4'>
-          <img id='logo-image' class='circle' src='src/public/assets/images/logo_transparent.png' alt='My Brand Logo' />
+          <img id='logo-image' class='circle z-depth-3 page-logo' src='src/public/assets/images/logo_transparent.png' alt='My Brand Logo' />
         </div>
         <div class='col s8'>
           <div class='valign-wrapper'>
@@ -50,9 +52,33 @@
         </div>
       </div>
     </div>
+    <div class='section teal lighten-2 z-depth-1'>
+      <h2 class='center'>Python</h2>
+      <div class="row container valign-wrapper">
+        <div class="col s8 right">
+          <span class='flow-text'>I have taught Python to GCSE students before and am currently working on making some lessons to aid in any further teaching I undertake. I have also created Conway's Game of Life and Minesweeper in Python</span>
+        </div>
+        <div class="col s2"></div>
+        <div class="col s2 right">
+          <img class='circle z-depth-3 page-logo' src='src/public/assets/images/python-icon.png' alt='My Brand Logo' />
+        </div>
+      </div>
+    </div>
+    <div class='section teal lighten-2 z-depth-1'>
+      <h2 class='center'>Java</h2>
+      <div class="row container valign-wrapper">
+        <div class="col s2 right">
+          <img class='circle z-depth-3 page-logo' src='src/public/assets/images/java-icon.png' alt='My Brand Logo' />
+        </div>
+        <div class="col s2"></div>
+        <div class="col s8 right">
+          <span class='flow-text'>I have created applications in Java including a pipe ordering system which demonstrates a knowledge of abstraction, polymorphism and hierarchical structures</span>
+        </div>
+      </div>
+    </div>
 
     <footer class='center flow-text'>
-      <div class="container footer-wrapper">
+        <div class="container footer-wrapper">
         <span>Copyright Glenn Hamilton-Smith 2018</span>
       </div>
     </footer>

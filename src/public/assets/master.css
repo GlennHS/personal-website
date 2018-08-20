@@ -6,6 +6,13 @@ body {
   font-size: 20px;
 }
 
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+  font-weight: 700;
+  font-style: italic;
+}
+
 h2 {
   font-size: 36px;
   text-decoration: underline;
@@ -114,7 +121,7 @@ strong {
 
 @media only screen and (max-width: 992px) {
   .page-logo {
-    height: 100px;
+    height: 100px !important;
     width: 100px !important;
   }
 }
