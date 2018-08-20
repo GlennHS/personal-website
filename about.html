@@ -5,13 +5,14 @@
 
     <title>About Myself</title>
     <meta name="description" content="About Myself">
-    <meta name="author" content="Glenn Hamilton-Smith">
+    <meta name="author" content="Glenn Hamilton-Smith">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="src/public/assets/materialize.min.css">
     <link rel="stylesheet" href="src/public/assets/master.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> 
-    <link rel="shortcut icon" type="image/png" href="src/public/assets/images/favicon.png"/> 
+    <link rel="shortcut icon" type="image/png" href="src/public/assets/images/favicon.png"/>
   </head>
 
   <body>
@@ -40,55 +41,42 @@
 
     <div class='section teal lighten-2 z-depth-1'>
       <div class="container">
-        <div class='row center'>
-          <div class='col s12'>
-            <span class='random-color'>Try Refreshing The Page!</span>
+        <div class="row valign-wrapper">
+          <div class="col m4 s12">
+            <img class="circle page-logo" src="src/public/assets/images/face.jpg" alt="Glenn Hamilton-Smith's Face"/>
+            <figcaption>Glenn Hamilton-Smith</figcaption>
+          </div>
+          <div class="col m8 s12">
+            <span>I am a second year computer science student at University of Portsmouth. I am a keen programmer and clarinetist. In my spare time I play games, solve puzzles and teach/practice programming!</span>
           </div>
         </div>
-        <div class='row center'>
-          <div class='col s12'>
-            <h3>My Skills</h3>
-          </div>
+      </div>
+    </div>
+
+    <div class='section teal lighten-2 z-depth-1'>
+      <div class="container">
+        <div class="center">
+          <h4>Languages I Know</h4>
         </div>
-        <div class='row center hide-on-med-and-down'>
-          <div class='col s3 random-color'>
-            Caring
+        <div class="row valign-wrapper">
+          <div class="col m8 s12">
+            <ul>
+              <li>JavaScript/ES6</li>
+              <li>NodeJS</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+          </ul>
           </div>
-          <div class='col s3 random-color'>
-            Passionate
+          <div class="col m8 s12">
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>Pascal/Delphi</li>
+              <li>Haskell</li>
+            </ul>
           </div>
-          <div class='col s3 random-color'>
-            Creative
-            </div>
-          <div class='col s3 random-color'>
-            Transparent
-          </div>
-        </div>
-        <div class='hide-on-large-only'>
-          <div class='row random-color center'>
-            Caring
-          </div>
-          <div class='row random-color center'>
-            Passionate
-          </div>
-          <div class='row random-color center'>
-            Creative
-            </div>
-          <div class='row random-color center'>
-            Transparent
-          </div>
-        </div>
-        <div class='row center'>
-          <div class='col s12'>
-            <h3>Education</h3>
-          </div>
-        </div>
-        <div class='row center'>
-          <div class='col s6'>
-            <h4>University of Portsmouth</h4>
-          </div>
-          <div class='col s6'>
-            <h4>2016-2021 <i>MEng Computer Science</i></h4>
+          <div class="col m4 s12">
+            <img class="circle page-logo" src="src/public/assets/images/coding.png" alt="An Image Of Code"/>
           </div>
         </div>
       </div>
@@ -104,18 +92,18 @@
           <div class="col l4 offset-l2 s12">
             <h5 class="grey-text text-darken-3">Links</h5>
             <ul>
-              <li><a class="grey-text text-darken-2" href="#!">Home</a></li>
-              <li><a class="grey-text text-darken-2" href="#!">About Me</a></li>
-              <li><a class="grey-text text-darken-2" href="#!">Projects</a></li>
-              <li><a class="grey-text text-darken-2" href="#!">Links</a></li>
+              <li><a class="grey-text text-darken-2" href="index.html">Home</a></li>
+              <li><a class="grey-text text-darken-2" href="about.html">About Me</a></li>
+              <li><a class="grey-text text-darken-2" href="projects.html">Projects</a></li>
+              <li><a class="grey-text text-darken-2" href="links.html">Links</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer-copyright black">
         <div class="container">
-          <span class="random-color">© 2018 Glenn Hamilton-Smith</span>
-          <a class="right red-text text-darken-1" href="#!">Contact Me</a>
+          <span onclick="randomizeColors()" class="random-color" onclick="randomizeColors()">© 2018 Glenn Hamilton-Smith</span>
+          <a class="right red-text text-darken-1" href="mailto:up824726@myport.ac.uk?Subject=Sent From ÆtherSolutions" target="_top">Contact Me</a>
         </div>
       </div>
     </footer>

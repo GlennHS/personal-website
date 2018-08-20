@@ -1,3 +1,5 @@
+'use strict';
+
 M.AutoInit();
 
 let userHasScrolled = false;
@@ -40,7 +42,7 @@ const randomizeColors = () => {
     // Make a blank array to store RGB
     let newColor = [];
     // Generate Red Green and Blue values
-    for(i=0;i<3;i++) {
+    for(let i=0;i<3;i++) {
       newColor.push(Math.floor(Math.random() * 192) + 64)
     }
     // Stringify the array and apply the new color to the object
