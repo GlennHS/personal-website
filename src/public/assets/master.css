@@ -1,6 +1,6 @@
 /***VARIABLE DECLARATION***/
 body {
-  background-color: #00897b;
+  background-color: #00695c;
   color: white;
   font-family: "Exo 2", sans-serif;
   font-size: 20px;
@@ -30,19 +30,13 @@ h4 {
   font-weight: 400;
 }
 
-#nav-logo {
-  width: 100px;
-  margin: 20px;
-}
-
-#logo-image {
-  width: 250px;
-  margin-left: 50px;
-}
-
 blockquote {
-  border-left: 20px solid #64ffda;
+  border-left: 20px solid #212121;
   font-size: 22px;
+}
+
+footer {
+  margin-top: 220px;
 }
 
 strong {
@@ -53,43 +47,8 @@ strong {
   width: 40px;
 }
 
-.footer-wrapper {
-  margin-top: 50px;
-  background-color: #4db6ac;
-}
-
 .section {
   margin: 50px 0;
-}
-
-#btn-top {
-  opacity: 0.8;
-}
-
-#slide-out {
-  background-color: #4db6ac;
-}
-
-#hamburger {
-  font-size: 100px !important;
-}
-
-.row {
-  margin-top: 50px;
-}
-
-.navbar-button:hover {
-  background-color: #607d8b !important;
-}
-
-.sidenav > li > .navbar-button {
-  margin-bottom: 50px !important;
-}
-
-#side-nav-logo {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
 }
 
 .nav-home.navbar-button-side {
@@ -101,13 +60,13 @@ strong {
 }
 
 .section {
-  background: #00897b;
+  background: #00695c;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #00897b 0%, #4db6ac 25%, #4db6ac 75%, #00897b 100%);
+  background: -moz-linear-gradient(left, #00695c 0%, #009688 25%, #009688 75%, #00695c 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #00897b 0%, #4db6ac 25%, #4db6ac 75%, #00897b 100%);
+  background: -webkit-linear-gradient(left, #00695c 0%, #009688 25%, #009688 75%, #00695c 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #00897b 0%, #4db6ac 25%, #4db6ac 75%, #00897b 100%);
+  background: linear-gradient(to right, #00695c 0%, #009688 25%, #009688 75%, #00695c 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00897b", endColorstr="#00897b",GradientType=1 );
   /* IE6-9 */
@@ -117,6 +76,46 @@ strong {
   margin-top: 5px;
   height: 200px !important;
   width: 200px !important;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.navbar-button:hover {
+  background-color: #607d8b !important;
+}
+
+#nav-logo {
+  width: 100px;
+  margin: 20px;
+}
+
+#logo-image {
+  width: 250px;
+  margin-left: 50px;
+}
+
+#btn-top {
+  opacity: 0.8;
+}
+
+#slide-out {
+  background-color: #009688;
+}
+
+#hamburger {
+  font-size: 100px !important;
+}
+
+#side-nav-logo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.sidenav > li > .navbar-button {
+  margin-bottom: 50px !important;
 }
 
 @media only screen and (max-width: 992px) {

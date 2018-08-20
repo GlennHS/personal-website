@@ -31,19 +31,13 @@ h4 {
   font-weight: 400;
 }
 
-#nav-logo {
-  width: 100px;
-  margin: 20px;
-}
-
-#logo-image {
-  width: 250px;
-  margin-left: 50px;
-}
-
 blockquote {
   border-left: 20px solid $blockquote ;
   font-size: 22px;
+}
+
+footer {
+  margin-top: 220px;
 }
 
 strong {
@@ -54,43 +48,8 @@ strong {
   width: 40px;
 }
 
-.footer-wrapper {
-  margin-top: 50px;
-  background-color: $section;
-}
-
 .section {
   margin: 50px 0;
-}
-
-#btn-top {
-  opacity: 0.8;
-}
-
-#slide-out {
-  background-color: $section
-}
-
-#hamburger {
-  font-size: 100px !important;
-}
-
-.row {
-  margin-top: 50px;
-}
-
-.navbar-button:hover {
-  background-color: $btn-hover !important;
-}
-
-.sidenav > li > .navbar-button {
-  margin-bottom : 50px !important;
-}
-
-#side-nav-logo {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
 }
 
 .nav-home.navbar-button-side {
@@ -113,6 +72,46 @@ strong {
   margin-top: 5px;
   height: 200px !important;
   width: 200px !important;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.navbar-button:hover {
+  background-color: $btn-hover !important;
+}
+
+#nav-logo {
+  width: 100px;
+  margin: 20px;
+}
+
+#logo-image {
+  width: 250px;
+  margin-left: 50px;
+}
+
+#btn-top {
+  opacity: 0.8;
+}
+
+#slide-out {
+  background-color: $section
+}
+
+#hamburger {
+  font-size: 100px !important;
+}
+
+#side-nav-logo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.sidenav > li > .navbar-button {
+  margin-bottom : 50px !important;
 }
 
 @media only screen and (max-width: 992px) {
