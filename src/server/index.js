@@ -1,3 +1,5 @@
+'use strict';
+
 M.AutoInit();
 
 let userHasScrolled = false;
@@ -25,7 +27,7 @@ const colorNavButton = () => {
   }
   Array.from(buttonToChange).forEach( (button) => {
     button.classList.remove('teal', 'lighten-1');
-    button.classList.add('teal', 'lighten-3');
+    button.classList.add('blue-grey', 'darken-2');
   })
 }
 
@@ -40,8 +42,8 @@ const randomizeColors = () => {
     // Make a blank array to store RGB
     let newColor = [];
     // Generate Red Green and Blue values
-    for(i=0;i<3;i++) {
-      newColor.push(Math.floor(Math.random() * 172))
+    for(let i=0;i<3;i++) {
+      newColor.push(Math.floor(Math.random() * 192) + 64)
     }
     // Stringify the array and apply the new color to the object
     // Colors always look like "rgb(r, g, b)"
