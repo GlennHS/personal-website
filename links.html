@@ -6,7 +6,7 @@
     <title>Links</title>
     <meta name="description" content="Links">
     <meta name="author" content="Glenn Hamilton-Smith">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <link rel="stylesheet" href="src/public/assets/materialize.min.css">
     <link rel="stylesheet" href="src/public/assets/master.css">
@@ -31,7 +31,7 @@
     </div>
 
     <ul id="slide-out" class="sidenav center">
-      <img id="side-nav-logo" class='circle z-depth-3' src='src/public/assets/images/logo.png' alt='My Brand Logo' />
+      <a href="index.html"><img id="side-nav-logo" class='circle z-depth-3' src='src/public/assets/images/logo.png' alt='My Brand Logo' /></a>
       <li><a href='index.html' class="nav-home btn waves-effect waves-light navbar-button">Home</a></li>
       <li><a href='about.html' class="nav-about btn waves-effect waves-light navbar-button">About Me</a></li>
       <li><a href='projects.html' class="nav-projects btn waves-effect waves-light navbar-button">Projects</a></li>
@@ -124,7 +124,7 @@
         </div>
       </div>
       <div class="footer-copyright black">
-        <div class="container">
+        <div class="container footer-container">
           <span onclick="randomizeColors()" class="random-color">© 2018 Glenn Hamilton-Smith</span>
           <a class="right red-text text-darken-1" href="mailto:up824726@myport.ac.uk?Subject=Sent From ÆtherSolutions" target="_top">Contact Me</a>
         </div>
@@ -138,6 +138,6 @@
     </div>
 
     <script src="src/public/assets/materialize.min.js"></script>
-    <script src="src/server/index.js"></script>
+    <script src="src/server/index.min.js"></script>
   </body>
 </html>

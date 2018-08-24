@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server",
-    "watch": "sass src/public/assets/master.scss src/public/assets/master.css --watch"
+    "watch": "sass src/public/assets/master.scss src/public/assets/master.css --watch",
+    "minify": "npx uglifyjs src/server/index.js --output 'src/server/index.min.js'"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,8 @@
     "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^4.9.3",
     "sass": "^1.11.0",
+    "uglify-es": "github:mishoo/UglifyJS2#harmony",
+    "uglify-js": "^3.4.7",
     "utf-8-validate": "5.0.1",
     "ws": "6.0.0"
   }

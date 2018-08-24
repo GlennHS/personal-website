@@ -32,12 +32,13 @@ h4 {
 }
 
 blockquote {
-  border-left: 20px solid $blockquote ;
+  border-left: 20px solid $blockquote;
   font-size: 22px;
 }
 
 footer {
   margin-top: 220px;
+  width: 100% !important;
 }
 
 strong {
@@ -101,7 +102,7 @@ strong {
 }
 
 #hamburger {
-  font-size: 100px !important;
+  font-size: 60px !important;
 }
 
 #side-nav-logo {
@@ -112,6 +113,10 @@ strong {
 
 .sidenav > li > .navbar-button {
   margin-bottom : 50px !important;
+}
+
+.footer-container > * {
+  display: inline-block;
 }
 
 @media only screen and (max-width: 992px) {
