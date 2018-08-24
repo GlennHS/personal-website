@@ -6,7 +6,7 @@
     <title>Æther Solutions</title>
     <meta name="description" content="AEther Solutions">
     <meta name="author" content="Glenn Hamilton-Smith">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <link rel="stylesheet" href="src/public/assets/materialize.min.css">
     <link rel="stylesheet" href="src/public/assets/master.css">
@@ -31,7 +31,7 @@
     </div>
 
     <ul id="slide-out" class="sidenav center">
-      <img id="side-nav-logo" class='circle z-depth-3' src='src/public/assets/images/logo.png' alt='My Brand Logo' />
+      <a href="index.html"><img id="side-nav-logo" class='circle z-depth-3' src='src/public/assets/images/logo.png' alt='My Brand Logo' /></a>
       <li><a href='index.html' class="nav-home btn waves-effect waves-light navbar-button">Home</a></li>
       <li><a href='about.html' class="nav-about btn waves-effect waves-light navbar-button">About Me</a></li>
       <li><a href='projects.html' class="nav-projects btn waves-effect waves-light navbar-button">Projects</a></li>
@@ -43,10 +43,10 @@
     <div class='section teal lighten-2 z-depth-1'>
       <h2 class='center'>Aether Solutions</h2>
       <div class='row container valign-wrapper'>
-        <div class='col s4'>
-          <img id='logo-image' class='circle z-depth-3 page-logo' src='src/public/assets/images/logo_transparent.png' alt='My Brand Logo' />
+        <div class='col s4 hide-on-med-and-down'>
+          <img class='circle z-depth-3 page-logo' src='src/public/assets/images/logo_transparent.png' alt='My Brand Logo' />
         </div>
-        <div class='col s8'>
+        <div class='col s12 l8'>
           <div class='valign-wrapper'>
             <span class="flow-text">Alongside my maintenance of this website I am also working on improving my skills with nodeJS, React and other facets of web development. I am also a keen JavaScript user and will challenge myself to write little scripts and functions that perform certain functions. I am proficient in css-in-js and can style dynamically.</span>
           </div>
@@ -56,11 +56,10 @@
     <div class='section teal lighten-2 z-depth-1'>
       <h2 class='center'>Python</h2>
       <div class="row container valign-wrapper">
-        <div class="col s8 right">
+        <div class="col s12 l8">
           <span class='flow-text'>I have taught Python to GCSE students before and am currently working on making some lessons to aid in any further teaching I undertake. I have also created Conway's Game of Life and Minesweeper in Python</span>
         </div>
-        <div class="col s2"></div>
-        <div class="col s2 right">
+        <div class="col s4 hide-on-med-and-down">
           <img class='circle z-depth-3 page-logo' src='src/public/assets/images/python-icon.png' alt='My Brand Logo' />
         </div>
       </div>
@@ -68,11 +67,10 @@
     <div class='section teal lighten-2 z-depth-1'>
       <h2 class='center'>Java</h2>
       <div class="row container valign-wrapper">
-        <div class="col s2 right">
+        <div class="col s4 hide-on-med-and-down">
           <img class='circle z-depth-3 page-logo' src='src/public/assets/images/java-icon.png' alt='My Brand Logo' />
         </div>
-        <div class="col s2"></div>
-        <div class="col s8 right">
+        <div class="col s12 l8">
           <span class='flow-text'>I have created applications in Java including a pipe ordering system which demonstrates a knowledge of abstraction, polymorphism and hierarchical structures</span>
         </div>
       </div>
@@ -97,7 +95,7 @@
         </div>
       </div>
       <div class="footer-copyright black">
-        <div class="container">
+        <div class="container footer-container">
           <span onclick="randomizeColors()" class="random-color">© 2018 Glenn Hamilton-Smith</span>
           <a class="right red-text text-darken-1" href="mailto:up824726@myport.ac.uk?Subject=Sent From ÆtherSolutions" target="_top">Contact Me</a>
         </div>
