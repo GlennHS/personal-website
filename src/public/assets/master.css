@@ -77,6 +77,15 @@ strong {
   margin-top: 5px;
   height: 200px !important;
   width: 200px !important;
+  animation-name: pic-rolloff;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+
+.page-logo:hover {
+  animation-name: pic-hover;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
 }
 
 .row {
@@ -90,11 +99,6 @@ strong {
 #nav-logo {
   width: 100px;
   margin: 20px;
-}
-
-#logo-image {
-  width: 250px;
-  margin-left: 50px;
 }
 
 #btn-top {
@@ -123,6 +127,22 @@ strong {
   display: inline-block;
 }
 
+@keyframes pic-hover {
+  from {
+    filter: grayscale(100%);
+  }
+  to {
+    filter: grayscale(0%);
+  }
+}
+@keyframes pic-rolloff {
+  from {
+    filter: grayscale(0%);
+  }
+  to {
+    filter: grayscale(100%);
+  }
+}
 @media only screen and (max-width: 992px) {
   body {
     font-size: 16px;
