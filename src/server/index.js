@@ -78,6 +78,10 @@ window.addEventListener('scroll', () => {
 })
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Sidenav Init
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems, {});
+  // Collapse  Init
+  var elems = document.querySelectorAll('.collapsible');
+  var instances = M.Collapsible.init(elems, options);
 });
