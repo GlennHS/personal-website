@@ -124,7 +124,24 @@ strong {
 }
 
 .footer-container > * {
-  display: inline-block;
+  display: block;
+}
+
+/* COLLAPSIBLE SECTIONS CSS */
+.collapsible {
+  border-style: none;
+}
+
+.down-icon {
+  margin-left: 120px;
+  padding-right: 50px;
+  font-size: 30px !important;
+}
+
+.collapsible-body > * {
+  display: block;
+  font-size: 18px;
+  margin-left: 120px;
 }
 
 @keyframes pic-hover {
