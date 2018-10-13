@@ -2,6 +2,8 @@
 
 M.AutoInit();
 
+//  TODO: Add script that counts how many children of a folder in links.html and displays appropriate materializecss filter icon
+
 let userHasScrolled = false;
 /**
  * @fires onPageLoad

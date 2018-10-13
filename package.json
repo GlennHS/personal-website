@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server",
-    "watch": "sass src/public/assets/master.scss src/public/assets/master.css --watch",
+    "watch": "sass src/public/master.scss src/public/master.css --watch",
     "minify": "npx uglifyjs src/server/index.js --output src/server/index.min.js",
-    "mini": "npx uglifycss src/public/assets/master.css --output src/public/assets/master.min.css"
+    "mini": "npx uglifycss src/public/master.css --output src/public/master.min.css"
   },
   "repository": {
     "type": "git",
