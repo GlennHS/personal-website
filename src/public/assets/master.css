@@ -144,6 +144,10 @@ strong {
   margin-left: 120px;
 }
 
+.LI-profile-badge {
+  margin-left: 26vw;
+}
+
 @keyframes pic-hover {
   from {
     filter: grayscale(100%);
