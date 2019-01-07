@@ -1,8 +1,8 @@
 {
-  "name": "Personal_Website",
+  "name": "aetherSolutions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GlennHS/personal-website.git"
+    "url": "git+https://github.com/GlennHS/aethersolutions.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GlennHS/personal-website/issues"
+    "url": "https://github.com/GlennHS/aethersolutions/issues"
   },
-  "homepage": "https://github.com/GlennHS/personal-website#readme",
+  "homepage": "https://aethersolutions.me",
   "dependencies": {
     "bufferutil": "4.0.0",
     "eslint": "^5.3.0",
