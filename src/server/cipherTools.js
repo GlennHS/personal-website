@@ -1,23 +1,5 @@
 'use strict';
 
-const testString = "abc123xyz";
-const testSentence = "Lorem ipsum dolor sit amet";
-
-const returnLastWord = (a) => {
-  let wordFound = false;
-  for (let i = 1; i < a.length; i++) {
-    let charToInspect = a[a.length - i];
-    if (charToInspect === " ") {
-      return a.slice(a.length - i + 1, a.length);
-    }
-  }
-}
-
-const returnLastWordSplit = (a) => {
-  let arrOfWords = a.split(" ");
-  return arrOfWords[arrOfWords.length - 1];
-}
-
 const findCommonPairs = (cipher) => {
   const alphabetArray = 'abcdefghijklmnopqrstuvwxyz'.split('');
   const doublePairs = alphabetArray.map( (elem) => (`${elem}${elem}`));
