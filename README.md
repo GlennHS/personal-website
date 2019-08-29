@@ -1,3 +1,3 @@
 # aethersolutions
 
-https://aethersolutions.me
+A repo for my site (currently not live)
