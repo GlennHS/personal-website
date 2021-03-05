@@ -144,8 +144,15 @@ strong {
   margin-left: 120px;
 }
 
-.LI-profile-badge {
-  margin-left: 26vw;
+.LI-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a, a#linkedin {
+  color: white !important;
+  text-decoration: underline;
 }
 
 @keyframes pic-hover {
