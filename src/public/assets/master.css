@@ -78,7 +78,7 @@ strong {
   height: 200px !important;
   width: 200px !important;
   animation-name: pic-rolloff;
-  animation-duration: 0.6s;
+  animation-duration: 1.2s;
   animation-fill-mode: forwards;
 }
 
