@@ -32,6 +32,6 @@
     "uglify-es": "github:mishoo/UglifyJS2#harmony",
     "uglify-js": "^3.6.0",
     "utf-8-validate": "5.0.1",
-    "ws": "6.0.0"
+    "ws": "6.2.2"
   }
 }
